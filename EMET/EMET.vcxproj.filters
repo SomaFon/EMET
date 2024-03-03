@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EAF">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ASLR">
+      <UniqueIdentifier>{41d82bc9-a741-4f2c-89cf-85dd46d42c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASR">
+      <UniqueIdentifier>{50345b64-691c-4c2b-be86-b2c1b457918b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SEHOP">
+      <UniqueIdentifier>{dd39dbdd-34fb-4e25-bbfa-4bc506d078da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEP">
+      <UniqueIdentifier>{75951ca4-b446-4754-ae80-c34714f839a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{70ecb6c5-bfed-4f80-9afe-dde3c50813be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{f9175653-428c-4445-8914-42111cd055c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMET">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="反汇编">
+      <UniqueIdentifier>{1795e359-5376-454d-bfc0-2255c6d01ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROP">
+      <UniqueIdentifier>{491d324b-335a-453d-b2f9-4fb958bc6bea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EAF.cpp">
+      <Filter>EAF</Filter>
+    </ClCompile>
+    <ClCompile Include="ASLR.cpp">
+      <Filter>ASLR</Filter>
+    </ClCompile>
+    <ClCompile Include="ASR.cpp">
+      <Filter>ASR</Filter>
+    </ClCompile>
+    <ClCompile Include="DEP.cpp">
+      <Filter>DEP</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SEHOP.cpp">
+      <Filter>SEHOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="EMET.cpp">
+      <Filter>EMET</Filter>
+    </ClCompile>
+    <ClCompile Include="Decode2Asm.cpp">
+      <Filter>反汇编</Filter>
+    </ClCompile>
+    <ClCompile Include="Disasm.cpp">
+      <Filter>反汇编</Filter>
+    </ClCompile>
+    <ClCompile Include="Dsasm_Functions.cpp">
+      <Filter>反汇编</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>EMET</Filter>
+    </ClCompile>
+    <ClCompile Include="ROPGuard.cpp">
+      <Filter>ROP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EAF.h">
+      <Filter>EAF</Filter>
+    </ClInclude>
+    <ClInclude Include="ASLR.h">
+      <Filter>ASLR</Filter>
+    </ClInclude>
+    <ClInclude Include="ASR.h">
+      <Filter>ASR</Filter>
+    </ClInclude>
+    <ClInclude Include="DEP.h">
+      <Filter>DEP</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SEHOP.h">
+      <Filter>SEHOP</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="EMET.h">
+      <Filter>EMET</Filter>
+    </ClInclude>
+    <ClInclude Include="Decode2Asm.h">
+      <Filter>反汇编</Filter>
+    </ClInclude>
+    <ClInclude Include="Disasm.h">
+      <Filter>反汇编</Filter>
+    </ClInclude>
+    <ClInclude Include="ROPGuard.h">
+      <Filter>ROP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
